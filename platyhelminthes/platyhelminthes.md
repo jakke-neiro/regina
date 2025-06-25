@@ -11,3 +11,4 @@
 * Alejandro Sánchez Alvarado, Stowers Institute, USA, https://www.stowers.org/labs/sanchez-alvarado-lab
 * Jordi Solana, University of Exeter, Exeter, UK, https://lsi.exeter.ac.uk/groups/solana-group/
 * Bo Wang, Stanford University, USA, https://wanglab.stanford.edu/
+* Ricardo Zayas
