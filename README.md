@@ -1,5 +1,5 @@
 # regina
 The sovereign powers of regeneration in the animal kingdom
 
-[image](https://github.com/jakke-neiro/regina/edit/main/1080x360.jpg)
+<img src="1080x360.jpg" alt="hi" class="inline"/>
 
