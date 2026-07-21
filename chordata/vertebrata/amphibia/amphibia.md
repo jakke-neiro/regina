@@ -3,6 +3,7 @@
 * *Xenopus tropicalis*
 * *Ambystoma mexicanum*
 * *Pleurodeles waltl*
+* *Notophthalmus viridescens*
 
 ## Research groups
 * Aida Rodrigo Albors, University of Edinburgh, Edinburgh, United Kingdom, https://regenerative-medicine.ed.ac.uk/research/research-groups/aida-rodrigo-albors-research-group
