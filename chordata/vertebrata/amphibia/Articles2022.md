@@ -2,13 +2,8 @@
  
 An annotated, deduplicated bibliography of salamander regeneration publications from 2022, with a reproducible search strategy.
  
-> **Scope note:** This is a curated core set of 45 publications plus 7 notable preprints. It is **not** an exhaustive census. Running the database queries below will return more records, mostly lower-profile papers in *Dev Dyn*, *Biomedicines*, *Front Cell Dev Biol*, and Russian/Japanese journals. Use this list as an annotated backbone and the queries to fill the long tail.
- 
 ## Contents
  
-- [Summary](#summary)
-- [Search strategy](#search-strategy)
-- [Key findings](#key-findings)
 - [Annotated list by tissue](#annotated-list-by-tissue)
   - [Limb](#limb)
   - [Tail](#tail)
@@ -20,50 +15,7 @@ An annotated, deduplicated bibliography of salamander regeneration publications 
   - [Methods, resources, reviews, history](#methods-resources-reviews-history)
 - [Species cross-index](#species-cross-index)
 - [Notable 2022 preprints](#notable-2022-preprints)
-- [Caveats](#caveats)
-- [Recommendations](#recommendations)
-## Summary
- 
-- The highest-profile 2022 papers were in **brain/CNS**: two back-to-back *Science* papers on axolotl telencephalon regeneration (Wei et al., Stereo-seq; Lust et al., scRNA-seq).
-- **Limb** papers were the most numerous, covering positional identity (Tig1), skeletal integration (osteoclasts, "bulky bones"), and blastema signaling (Wnt, Lmx1b, Pde4b/B2FF).
-- **Newt** work centered on *Pleurodeles waltl*: heart (epicardium-to-cardiomyocyte conversion, cryo-injury), neurospheres, gene nomenclature, and the October 2022 chromosome-scale genome preprint. *Cynops* work came from the Chiba lab. No 2022 journal paper centered on *Notophthalmus* was found.
-## Search strategy
- 
-### PubMed (title/abstract)
- 
-```text
-(salamander*[tiab] OR axolotl*[tiab] OR Ambystoma[tiab] OR newt*[tiab] OR Pleurodeles[tiab] OR Notophthalmus[tiab] OR Cynops[tiab] OR Urodela[tiab] OR Urodela[mh] OR Ambystoma mexicanum[mh] OR Salamandridae[mh])
-AND regenerat*[tiab]
-AND ("2022/01/01"[dp] : "2022/12/31"[dp])
-```
- 
-### Web of Science (Core Collection)
- 
-```text
-TS=(salamander* OR axolotl* OR Ambystoma OR newt* OR Pleurodeles OR Notophthalmus OR Cynops OR Urodela) AND TS=(regenerat*)
-```
- 
-Filter: `PY=2022`.
- 
-### Scopus
- 
-```text
-TITLE-ABS-KEY((salamander* OR axolotl* OR ambystoma OR newt* OR pleurodeles OR notophthalmus OR cynops OR urodela) AND regenerat*) AND PUBYEAR = 2022
-```
- 
-### bioRxiv
- 
-Full-text search for `axolotl OR newt OR Pleurodeles OR salamander` plus `regeneration`, posted 2022-01-01 to 2022-12-31.
- 
-### Rules used
- 
-- **Deduplication:** a paper counts as 2022 if its journal issue/volume year is 2022, or if its version of record appeared online in 2022 with a later issue date. Preprints are counted only in the preprint section unless the version of record also appeared in 2022.
-- **"newt\*" caveat:** this term also matches non-amphibian hits (e.g., "Newton"). Screen these manually.
-## Key findings
- 
-1. **Spatial and single-cell atlases reached the CNS.** Before 2022, the main axolotl single-cell work was on the limb (Gerber 2018; Leigh 2018). In 2022 the field gained telencephalon atlases with injury-induced ependymoglia states (Wei; Lust), making brain regeneration a newly tractable, comparative system.
-2. **Limb skeletal regeneration is imperfect.** Three independent papers (Riquelme-Guzmán, *eLife*; Kaucka, *Nat Commun*; Polikarpova, *npj Regen Med*) converge: osteoclast resorption is needed for integration, regenerated bones are bulkier, and a stabilized osteotomy does not heal within 9 months.
-3. ***Pleurodeles* is becoming the genetically tractable newt.** 2022 brought a standardized gene nomenclature, neurosphere culture, cryo-injury and lineage-tracing heart models, and a chromosome-scale genome preprint.
+  
 ## Annotated list by tissue
  
 Species are given in brackets where not obvious from the title.
@@ -108,7 +60,7 @@ Species are given in brackets where not obvious from the title.
  
 15. **Carbonell MB, Zapata Cardona J, Delgado JP.** Hydrogen peroxide is necessary during tail regeneration in juvenile axolotl. *Dev Dyn* 251(6):1054–1076 (2022). [doi:10.1002/dvdy.386](https://doi.org/10.1002/dvdy.386) · [PMID 34129260](https://pubmed.ncbi.nlm.nih.gov/34129260/) [axolotl]
     NOX-derived H₂O₂ is necessary and sufficient for tail regeneration, acting through Akt, Agr2 and Yap1.
-    > ⚠️ Online June 2021; 2022 issue.
+    > Online June 2021; 2022 issue.
 ### Spinal cord
  
 16. **Walker SE et al.** Regulation of stem cell identity by miR-200a during spinal cord regeneration. *Development* 149(3):dev200033 (2022). [doi:10.1242/dev.200033](https://doi.org/10.1242/dev.200033) [axolotl]
@@ -123,7 +75,7 @@ Species are given in brackets where not obvious from the title.
     Spatial single-cell atlas of telencephalon development and regeneration; identifies injury-induced reactive ependymoglia that regenerate neurons through a development-like state transition.
 20. **Lust K et al.** Single-cell analyses of axolotl telencephalon organization, neurogenesis, and regeneration. *Science* 377(6610):eabp9262 (2022). [doi:10.1126/science.abp9262](https://doi.org/10.1126/science.abp9262) [axolotl]
     Telencephalon atlas with neuron types homologous to mammalian hippocampus and lateral cortex. Regenerative neurogenesis reuses homeostatic neuroblast programs after an injury-specific ependymoglia state.
-    > ⚠️ The glutamatergic/GABAergic cluster counts sometimes quoted for this paper come from a commentary, not the paper itself; check before citing.
+    
 ### Heart
  
 21. **Eroglu E et al.** Epicardium-derived cells organize through tight junctions to replenish cardiac muscle in salamanders. *Nat Cell Biol* 24(5):645–658 (2022). [doi:10.1038/s41556-022-00902-2](https://doi.org/10.1038/s41556-022-00902-2) · [PMID 35550612](https://pubmed.ncbi.nlm.nih.gov/35550612/) [*Pleurodeles*]
@@ -132,12 +84,12 @@ Species are given in brackets where not obvious from the title.
     Establishes a cryoinjury model; regeneration after cryoinjury involves fewer fluctuating genes than after amputation.
 23. **Dittrich A et al.** Does metabolism regulate cardiac repair in the regeneration competent axolotl salamander? *FASEB J* 36(S1), abstract R1919 (2022). [axolotl]
     Whole-animal and cardiac respirometry after cryoinjury.
-    > ⚠️ Conference abstract only, not a peer-reviewed article. Author list unconfirmed.
+
 ### Eye / lens / retina
  
 24. **Tsissios G, Sallese A, Chen W, Miller A, Wang H, Del Rio-Tsonis K.** In vivo and ex vivo view of newt lens regeneration. In: *Salamanders: Methods and Protocols*. *Methods Mol Biol* 2562:197–208. [doi:10.1007/978-1-0716-2659-7_13](https://doi.org/10.1007/978-1-0716-2659-7_13) [newt]
     SD-OCT protocol for longitudinal in vivo imaging of lens regeneration from the dorsal iris, with histological correlation.
-    > ⚠️ Online October 2022; volume labeled "1st ed. 2023". Tsissios et al., *Differentiation* 132:15–23 (*Pleurodeles* lens) is a 2023 paper and is excluded.
+    > Online October 2022; volume labeled "1st ed. 2023". Tsissios et al., *Differentiation* 132:15–23 (*Pleurodeles* lens) is a 2023 paper and is excluded.
 25. **Grigoryan EN.** Self-organization of the retina during eye development, retinal regeneration in vivo, and in retinal 3D organoids in vitro. *Biomedicines* 10:1458 (2022).
     Review covering newt retinal regeneration from RPE.
 ### Skin / wound healing
@@ -161,8 +113,8 @@ Species are given in brackets where not obvious from the title.
     Review including a regeneration-capacity table by tissue.
 34. **(Echeverri lab; authors to verify).** The Axolotl's journey to the modern molecular era. *Curr Top Dev Biol* 147:631–658 (2022).
     Review.
-    > ⚠️ Authors unconfirmed.
-35. **Maden M.** Salamanders as key models for development and regeneration research. *Methods Mol Biol* 2562:1–23 (online October 2022).
+    
+36. **Maden M.** Salamanders as key models for development and regeneration research. *Methods Mol Biol* 2562:1–23 (online October 2022).
     Introductory chapter.
 36–45. **Other regeneration-relevant chapters in *Methods Mol Biol* 2562** (*Salamanders: Methods and Protocols*, eds. Seifert AW & Currie JD; Humana; online October 2022; 31 protocols). Cite each individually by its `10.1007/978-1-0716-2659-7_N` DOI. Topics include:
    - COMET assay for DNA damage during axolotl tail regeneration
